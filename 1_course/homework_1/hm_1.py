@@ -19,10 +19,14 @@ if start == "ready":
     # 5. Задаем вопросы
     for q in range(count_questions):
         attempt = 1
-        while True:
-            quest = input(questions[q])
 
-            if quest == answers[q]:
+        question = questions[q]
+        answer = answers[q]
+
+        while True:
+            quest = input(question)
+
+            if quest == answer:
                 print("Ответ верный!")
 
                 if attempt == 1:
@@ -40,7 +44,7 @@ if start == "ready":
                     print(f"Осталось попыток: { 4 - attempt }, попробуйте ещё раз!")
 
                 else:
-                    print(f"Увы, но нет! Верный ответ: { answers[q] }")
+                    print(f"Увы, но нет! Верный ответ: { answer }")
                     break
         
 
