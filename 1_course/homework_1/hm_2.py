@@ -1,4 +1,4 @@
-# Слова, которые нужно угадаывать
+  # Слова, которые нужно угадаывать
 
 easy = {
     "peacock":  "павлин",
@@ -42,14 +42,14 @@ answers = {}
 # Выбор уровня сложности
 
 print("Выберите уровень сложности")
-selected_level = input("Легкий, средний, сложный")
+selected_level = input("Легкий, средний, сложный").lower()
 word = {}
 
-if selected_level.lower() == "легкий":
+if selected_level == "легкий":
     word = dict(easy)
-elif selected_level.lower() == "средний":
+elif selected_level == "средний":
     word = dict(medium)
-elif selected_level.lower() == "сложный":
+elif selected_level == "сложный":
     word = dict(hard)
 
 print("Выбран уровень сложности, мы предложим 5 слов, подберите перевод")
@@ -72,19 +72,23 @@ for term, translation in word.items():
 
 # Вывод результатов
 
-count_right_answers = 0
+right_answers = []
+not_a_right_answers = []
 
-print("Правильно отвечены слова:")
 for answer, value in answers.items():
     if value is True:
-        print(answer)
-        count_right_answers += 1
+        right_answers.append(answer)
 
-print("Неправильно отвечены слова:")
-for answer, value in answers.items():
-    if value is False:
-        print(answer)
+    else:
+        not_a_right_answers.append(answer)
 
+count_right_answers = len(right_answers)
 rang = levels[count_right_answers]
+
+print(f"Правильно отвечены слова:")
+print("\n".join(right_answers))
+
+print(f"Неправильно отвечены слова:")
+print("\n".join(not_a_right_answers))
 
 print(f"Ваш ранг:\n{rang}")
