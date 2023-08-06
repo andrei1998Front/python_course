@@ -16,60 +16,62 @@ words = [
 
 answers = []
 
+# Азбука морзе
+
+MORSE = {
+    "0": "-----",
+    "1": ".----",
+    "2": "..---",
+    "3": "...--",
+    "4": "....-",
+    "5": ".....",
+    "6": "-....",
+    "7": "--...",
+    "8": "---..",
+    "9": "----.",
+    "a": ".-",
+    "b": "-...",
+    "c": "-.-.",
+    "d": "-..",
+    "e": ".",
+    "f": "..-.",
+    "g": "--.",
+    "h": "....",
+    "i": "..",
+    "j": ".---",
+    "k": "-.-",
+    "l": ".-..",
+    "m": "--",
+    "n": "-.",
+    "o": "---",
+    "p": ".--.",
+    "q": "--.-",
+    "r": ".-.",
+    "s": "...",
+    "t": "-",
+    "u": "..-",
+    "v": "...-",
+    "w": ".--",
+    "x": "-..-",
+    "y": "-.--",
+    "z": "--..",
+    ".": ".-.-.-",
+    ",": "--..--",
+    "?": "..--..",
+    "!": "-.-.--",
+    "-": "-....-",
+    "/": "-..-.",
+    "@": ".--.-.",
+    "(": "-.--.",
+    ")": "-.--.-",
+    " ": "/"
+}
+
 
 def morse_encode(sentence):
     """Функция переводящя текст в азбуку морзе"""
 
     str_ = ""
-
-    morse = {
-        "0": "-----",
-        "1": ".----",
-        "2": "..---",
-        "3": "...--",
-        "4": "....-",
-        "5": ".....",
-        "6": "-....",
-        "7": "--...",
-        "8": "---..",
-        "9": "----.",
-        "a": ".-",
-        "b": "-...",
-        "c": "-.-.",
-        "d": "-..",
-        "e": ".",
-        "f": "..-.",
-        "g": "--.",
-        "h": "....",
-        "i": "..",
-        "j": ".---",
-        "k": "-.-",
-        "l": ".-..",
-        "m": "--",
-        "n": "-.",
-        "o": "---",
-        "p": ".--.",
-        "q": "--.-",
-        "r": ".-.",
-        "s": "...",
-        "t": "-",
-        "u": "..-",
-        "v": "...-",
-        "w": ".--",
-        "x": "-..-",
-        "y": "-.--",
-        "z": "--..",
-        ".": ".-.-.-",
-        ",": "--..--",
-        "?": "..--..",
-        "!": "-.-.--",
-        "-": "-....-",
-        "/": "-..-.",
-        "@": ".--.-.",
-        "(": "-.--.",
-        ")": "-.--.-",
-        " ": "/"
-    }
 
     # количество букв в слове
     count_letters = len(sentence)
@@ -79,10 +81,10 @@ def morse_encode(sentence):
 
         letter = sentence[num_letter]
 
-        if letter in morse and num_letter != last_letter_index:
-            str_ += morse[letter] + ' '
+        if num_letter != last_letter_index:
+            str_ += MORSE.get(letter, '') + ' '
         else:
-            str_ += morse[letter]
+            str_ += MORSE.get(letter, '')
 
     return str_
 
@@ -90,53 +92,48 @@ def morse_encode(sentence):
 def get_word():
     """Функция для получения случайного слова из списка"""
 
-    count_words_indices = len(words) - 1
-
-    rand_num = random.randint(0, count_words_indices)
+    # random.choice - возвращает случайный элемент последовательности
+    word = random.choice(words)
     
-    return words[rand_num]
+    return word
 
 
-def print_statistics():
+def print_statistics(answers_):
     """Вывод статистики ответов"""
     
-    count_answer = len(answers)
-    right_answers = 0
-    wrong_answers = 0
-
-    for answer_ in answers:
-
-        if answer_ is True:
-            right_answers += 1
-        else:
-            wrong_answers += 1
+    count_answer = len(answers_)
+    right_answers = sum(answers_)
+    wrong_answers = count_answer - sum(answers_)
         
     print(f"Всего задачек: {count_answer}")
     print(f"Отвечено верно: {right_answers}")
     print(f"Отвечено неверно: {wrong_answers}")
 
 
-# Приветствие
-print("Сегодня мы будем расшифровывать морзянку.")
-input("Нажмите Enter и начнем")
+def main():
+    count_words = len(words)
 
-count_words = len(words)
+    # Приветствие
+    print("Сегодня мы будем расшифровывать морзянку.")
+    input("Нажмите Enter и начнем")
 
-# запускаем цикл вопросов
+    # запускаем цикл вопросов
 
-for word_idx in range(count_words):
+    for word_idx in range(count_words):
 
-    random_word = get_word()
+        random_word = get_word()
+        morse_word = morse_encode(random_word)
 
-    morse_word = morse_encode(random_word)
+        answer = input(f"Слово {word_idx + 1} {morse_word} \n").lower()
 
-    answer = input(f"Слово {word_idx + 1} {morse_word} \n").lower()
+        if answer == random_word:
+            print(f"Верно, {random_word}!")
+            answers.append(True)
+        else:
+            print(f"Нерно, {random_word}!")
+            answers.append(False)
 
-    if answer == random_word:
-        print(f"Верно, {random_word}")
-        answers.append(True)
-    else:
-        print(f"Нерно, {random_word}")
-        answers.append(False)
+    print_statistics(answers)
 
-print_statistics()
+
+main()
