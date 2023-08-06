@@ -92,3 +92,4 @@ print(f"Неправильно отвечены слова:")
 print("\n".join(not_a_right_answers))
 
 print(f"Ваш ранг:\n{rang}")
+
