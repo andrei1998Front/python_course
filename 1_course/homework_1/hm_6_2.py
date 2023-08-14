@@ -1,56 +1,38 @@
-import random
+from utils import *
+from config import *
 
-result = 0
 
-# Приветствие
+def main():
+    result = 0
 
-user_name = input("Введите ваше имя\n")
+    # Приветствие
 
-# Достаем слова из файла и задаем вопросы
+    user_name = input("Введите ваше имя\n")
 
-with open("words.txt") as words:
+    # Достаем слова из файла и задаем вопросы
+    words = read_words_from_file(WORDS_PATH)
+
     for word in words:
-        word_without_sym = word.strip()
-        word_list = list(word_without_sym)
+        shuffled_word = shuffle_word(word)
 
-        random.shuffle(word_list)
-        shuffle_word = ''.join(word_list)
-
-        print(f"Угадайте слово {shuffle_word}")
+        print(f"Угадайте слово {shuffled_word}")
         answer = input()
 
-        if word_without_sym == answer:
+        if word == answer:
             print("Верно! Вы получаете 10 очков.")
             result += 10
         else:
-            print(f"Неверно! Верный ответ - {word_without_sym}")
+            print(f"Неверно! Верный ответ - {word}")
 
-# Записываем результат
+    # Записываем результат
 
-with open("history.txt", 'a') as history:
-    history.write(f"{user_name} {result}\n")
+    write_result(HISTORY_PATH, user_name, result)
 
-# Откроем историю и посчитаем статистику
-count_games = 0
-max_result = 0
-current_line_idx = 0
+    # Откроем историю и посчитаем статистику
 
-with open('history.txt') as history:
-    for line in history:
-        line_result = line.strip().split(" ")[1]
+    stats = calc_statistics(HISTORY_PATH)
 
-        if line_result.isdigit() is False:
-            print(f"На строке {current_line_idx} содержится ошибка")
-            current_line_idx += 1
+    print(f"Всего игр сыграно: {stats.get('count_games')}")
+    print(f"Максимальный рекорд: {stats.get('max_result')}")
 
-            continue
-
-        current_result = int(line_result)
-
-        if(max_result < current_result):
-            max_result = current_result
-
-        count_games += 1
-
-print(f"Всего игр сыграно: {count_games}")
-print(f"Максимальный рекорд: {max_result}")
+main()
