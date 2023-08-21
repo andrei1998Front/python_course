@@ -13,7 +13,7 @@ def main():
     incorrect = 0
 
     while count_answers <= count_questions:
-        print(show_field(questions_dict))
+        another_show_field(questions_dict)
 
         user_choice = input("Выберите вопрос:\n")
 
@@ -55,5 +55,6 @@ def main():
         count_answers += 1
 
     save_result_to_file(STATISTICS_PATH, points, correct, incorrect)
+
 
 main()

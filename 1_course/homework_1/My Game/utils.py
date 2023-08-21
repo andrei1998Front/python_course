@@ -36,6 +36,19 @@ def show_field(questions):
 
     return "\n".join(field)
 
+def another_show_field(questions):
+    """ Вывод игрового поля с ипользованием str.ljust"""
+
+    for category, category_item in questions.items():
+        print(category.ljust(10), end="")
+
+        for price, question in category_item.items():
+            if question["asked"]:
+                print("   ".ljust(5), end="")
+            else:
+                print(price.ljust(5), end="")
+
+        print()
 
 def parse_input(input):
     """ Делит ввод пользователя на категорию и число """
