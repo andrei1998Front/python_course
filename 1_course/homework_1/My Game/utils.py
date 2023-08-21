@@ -79,8 +79,13 @@ def get_max_gamer_id(stats_dict):
     return max(gamer_nums) + 1
 
 
-def save_result_to_file(path, stats_dict):
+def save_result_to_file(path, points, correct, incorrect):
     """ Запись статистики в файл """
+
+    stats_dict = load_question(path)
+    gamer_id = get_max_gamer_id(stats_dict)
+
+    stats_dict[f"gamer_{gamer_id}"] = {"points": points, "correct": correct, "incorrect": incorrect}
 
     stats_json = json.dumps(stats_dict)
 

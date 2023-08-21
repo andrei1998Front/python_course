@@ -54,12 +54,6 @@ def main():
 
         count_answers += 1
 
-    stats_dict = load_question(STATISTICS_PATH)
-    gamer_id = get_max_gamer_id(stats_dict)
-
-    stats_dict[f"gamer_{gamer_id}"] = {"points": points, "correct": correct, "incorrect": incorrect}
-
-    save_result_to_file(STATISTICS_PATH, stats_dict)
-
+    save_result_to_file(STATISTICS_PATH, points, correct, incorrect)
 
 main()
