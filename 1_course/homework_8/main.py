@@ -25,7 +25,7 @@ def main():
 
         print(question.build_question())
 
-        question.user_answer = input().lower()
+        question.user_answer = input()
 
         print(question.build_feedback())
 
@@ -34,5 +34,6 @@ def main():
         answered_questions += 1
 
     print_stats(questions)
+
 
 main()

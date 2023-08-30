@@ -19,14 +19,14 @@ class Questions:
 
     def is_correct(self):
         """Проверка правильности ответа"""
-        return self.right_answer.lower() == self.user_answer
+        return self.right_answer.lower() == self.user_answer.lower()
 
     def build_question(self):
         """Генерация вопроса"""
         return f"Вопрос: {self.text}\nСложность: {self.complexity}/5"
 
     def set_complexity(self, complexity_str):
-        """ Регулировка значения  сложности вопроса"""
+        """ Регулировка значения сложности вопроса"""
         complexity = int(complexity_str)
 
         if complexity < 0:
@@ -44,5 +44,3 @@ class Questions:
             return f"Ответ неверный, верный ответ {self.right_answer}"
 
 
-questions = Questions("123", 1, "asfdsf")
-questions.user_answer = "блять"

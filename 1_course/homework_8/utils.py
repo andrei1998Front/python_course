@@ -28,8 +28,7 @@ def create_questions_list(questions):
     return questions
 
 
-def print_stats(questions):
-    """ Вывод статистики """
+def calc_stats(questions):
     count_questions = len(questions)
     count_right_answers = 0
     points = 0
@@ -38,6 +37,14 @@ def print_stats(questions):
         if question.is_correct():
             count_right_answers += 1
             points += question.points
+
+    return count_right_answers, points, questions
+
+
+def print_stats(questions):
+    """ Вывод статистики """
+
+    count_right_answers, points, count_questions = calc_stats(questions)
 
     print("Вот и всё!")
     print(f"Отвечено {count_right_answers} из {count_questions}")
