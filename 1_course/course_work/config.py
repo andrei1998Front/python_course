@@ -1,0 +1,1 @@
+WORDS_URL = 'https://www.jsonkeeper.com/b/1SQR'
