@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Dmitriev Andrei",
+        "position": 1,
+        "skills": ["coding", "eating"],
+        "picture": "https://laplaya-rus.ru/wp-content/uploads/a/7/f/a7f6b579687cfcd1d7ac241e1ad1f720.jpeg"
+    },
+    {
+        "name": "Ivanov Andrei",
+        "position": 2,
+        "skills": ["coding", "eating", "sleping"],
+        "picture": "https://pichold.ru/wp-content/uploads/2021/02/1-401.jpg"
+    },
+    {
+        "name": "Dmitriev Ivan",
+        "position": 3,
+        "skills": ["coding", "eating", "drawing"],
+        "picture": "https://kartinkin.net/uploads/posts/2022-03/1647529878_22-kartinkin-net-p-kartinki-kunitsi-23.jpg"
+    }
+]

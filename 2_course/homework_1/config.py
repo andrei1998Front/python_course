@@ -1,0 +1,1 @@
+CANDIDATES_URL = "https://www.jsonkeeper.com/b/QS20"
