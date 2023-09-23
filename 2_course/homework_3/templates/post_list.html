@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Все посты найденные по запросу "{{search_string}}"</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+<main>
+
+    <a href="/" class="link">Назад</a>
+
+    <h1>Посты по запросу "{{search_string}}"</h1>
+    {% if found_posts|length == 0 %}
+        <div class="post">
+            <p>Ничего не найдено</p>
+        </div>
+    {% else %}
+        {% for post in found_posts %}
+            <div class="post">
+                <img src="{{post.pic}}" width="100%" alt="">
+                <p>{{post.content}}</p>
+            </div>
+            <hr>
+        {% endfor %}
+    {%endif%}
+
+    <a href="/post" class="button">Добавить пост</a>
+
+</main>
+</body>
+</html>
