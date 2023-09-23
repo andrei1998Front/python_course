@@ -1,1 +1,1 @@
-CANDIDATES_PATH = 'candidates.json'
+CANDIDATES_PATH = 'posts.json'
