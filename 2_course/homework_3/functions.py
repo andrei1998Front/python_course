@@ -16,17 +16,6 @@ def get_posts_from_json():
         return __posts_data
 
 
-def search_posts(string_for_search):
-    string_for_search = string_for_search.lower()
-    found_posts = []
-
-    for post in __posts_data:
-        if string_for_search in post["content"].lower():
-            found_posts.append(post)
-
-    return found_posts
-
-
 def upload_post(post):
     global __posts_data
     __posts_data.append(post)

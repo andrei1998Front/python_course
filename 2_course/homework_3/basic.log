@@ -56,3 +56,206 @@ INFO:werkzeug:127.0.0.1 - - [23/Sep/2023 17:47:32] "GET /post/ HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [23/Sep/2023 17:47:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 ERROR:root:Ошибка загрузки
 INFO:werkzeug:127.0.0.1 - - [23/Sep/2023 17:47:34] "POST /uploads HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 19:59:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 19:59:13] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 19:59:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Поиск по значению ага
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 19:59:19] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 19:59:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\main\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:03:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:03:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:03:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:03:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:03:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Поиск по значению fuf
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:03:30] "GET /search?s=fuf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:03:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Поиск по значению ага
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:03:35] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:03:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\main\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\functions.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:16:04] "[35m[1mGET /search?s=ага HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:16:04] "[36mGET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:16:04] "[36mGET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:16:04] "[36mGET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\main\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:root:Поиск по значению ага
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:16:58] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:16:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:16:59] "GET /post/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:16:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Поиск по значению ага
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:17:05] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:17:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\functions.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\functions.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\functions.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\main\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:root:Поиск по значению ага
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:17:44] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:17:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:17:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:17:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\main\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:18:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:18:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\loader\\loader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\loader\\loader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\loader\\loader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\loader\\loader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\loader\\loader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:21:15] "GET /post/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:21:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:21:21] "[33mPOST /uploads HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:22:37] "[33mPOST /uploads HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:22:50] "GET /post/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:22:50] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:22:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:22:55] "POST /post/uploads HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:22:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:22:55] "[33mGET /post/uploads/images/59b7098cd23a4838d0a8974008b16429.jpeg HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\loader\\loader.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:24:30] "POST /post/uploads HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:24:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:24:30] "GET /post/uploads/images/59b7098cd23a4838d0a8974008b16429.jpeg HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\loader\\loader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\loader\\loader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\loader\\loader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:40:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:40:48] "POST /post/uploads HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:40:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:40:48] "GET /post/uploads/images/59b7098cd23a4838d0a8974008b16429.jpeg HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:51:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:51:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Поиск по значению gvfd
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:51:05] "GET /search?s=gvfd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:51:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:51:05] "[33mGET /uploads/images/59b7098cd23a4838d0a8974008b16429.jpeg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:51:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:52:02] "[33mGET /uploads/images/59b7098cd23a4838d0a8974008b16429.jpeg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:52:05] "[33mGET /uploads/images/59b7098cd23a4838d0a8974008b16429.jpeg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:52:10] "[33mGET /uploads/images/59b7098cd23a4838d0a8974008b16429.jpeg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:52:18] "[33mGET /uploads/images/59b7098cd23a4838d0a8974008b16429.jpeg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 20:52:57] "[33mGET /uploads/images/cat.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\homework_3\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-810-200
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 21:05:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 21:05:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Поиск по значению gvfd
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 21:05:17] "GET /search?s=gvfd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 21:05:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Sep/2023 21:05:17] "GET /uploads/images/59b7098cd23a4838d0a8974008b16429.jpeg HTTP/1.1" 200 -

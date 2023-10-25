@@ -1,0 +1,114 @@
+2023.10.24 12:10:03 AM [INFO]  * Detected change in 'C:\\Users\\Андрей\\Desktop\\work\\python\\python_course\\2_course\\course_work\\app\\api\\views.py', reloading
+2023.10.24 12:10:03 AM [INFO]  * Restarting with stat
+2023.10.24 12:10:04 AM [WARNING]  * Debugger is active!
+2023.10.24 12:10:04 AM [INFO]  * Debugger PIN: 669-320-379
+2023.10.24 09:43:51 PM [INFO] Запрос /api/posts
+2023.10.24 09:43:51 PM [INFO] Query to /api/posts/1
+2023.10.24 09:45:02 PM [INFO] Запрос /api/posts
+2023.10.24 09:45:02 PM [INFO] Query to /api/posts/1
+2023.10.24 09:45:17 PM [INFO] Запрос /api/posts
+2023.10.24 09:45:17 PM [INFO] Query to /api/posts/1
+2023.10.24 09:46:37 PM [INFO] Запрос /api/posts
+2023.10.24 09:46:37 PM [INFO] Query to /api/posts/1
+2023.10.24 09:46:53 PM [INFO] Запрос /api/posts
+2023.10.24 09:46:53 PM [INFO] Query to /api/posts/1
+2023.10.24 09:48:04 PM [INFO] Запрос /api/posts
+2023.10.24 09:48:04 PM [INFO] Query to /api/posts/1
+2023.10.24 09:48:40 PM [INFO] Запрос /api/posts
+2023.10.24 09:48:40 PM [INFO] Query to /api/posts/1
+2023.10.24 09:49:27 PM [INFO] Запрос /api/posts
+2023.10.24 09:49:27 PM [INFO] Query to /api/posts/1
+2023.10.24 09:55:08 PM [INFO] Запрос /api/posts
+2023.10.24 09:55:08 PM [INFO] Query to /api/posts/1
+2023.10.24 09:56:35 PM [INFO] Запрос /api/posts
+2023.10.24 09:56:35 PM [INFO] Query to /api/posts/1
+2023.10.24 09:57:40 PM [INFO] Запрос /api/posts
+2023.10.24 09:57:40 PM [INFO] Query to /api/posts/1
+2023.10.24 10:02:33 PM [INFO] Запрос /api/posts
+2023.10.24 10:02:33 PM [INFO] Query to /api/posts/1
+2023.10.24 10:05:28 PM [INFO] Запрос /api/posts
+2023.10.24 10:05:28 PM [INFO] Query to /api/posts/1
+2023.10.24 10:06:15 PM [INFO] Запрос /api/posts
+2023.10.24 10:06:15 PM [INFO] Query to /api/posts/1
+2023.10.24 10:07:09 PM [INFO] Запрос /api/posts
+2023.10.24 10:07:09 PM [INFO] Query to /api/posts/1
+2023.10.24 10:14:08 PM [INFO] Запрос /api/posts
+2023.10.24 10:14:08 PM [INFO] Query to /api/posts/1
+2023.10.24 10:14:49 PM [INFO] Запрос /api/posts
+2023.10.24 10:14:49 PM [INFO] Query to /api/posts/1
+2023.10.24 10:15:25 PM [INFO] Запрос /api/posts
+2023.10.24 10:15:25 PM [INFO] Query to /api/posts/1
+2023.10.24 10:15:39 PM [INFO] Запрос /api/posts
+2023.10.24 10:15:39 PM [INFO] Query to /api/posts/1
+2023.10.24 10:17:06 PM [INFO] Запрос /api/posts
+2023.10.24 10:17:06 PM [INFO] Query to /api/posts/1
+2023.10.24 10:18:23 PM [INFO] Запрос /api/posts
+2023.10.24 10:18:23 PM [INFO] Query to /api/posts/1
+2023.10.24 10:20:03 PM [INFO] Запрос /api/posts
+2023.10.24 10:20:04 PM [INFO] Query to /api/posts/1
+2023.10.24 10:22:41 PM [INFO] Запрос /api/posts
+2023.10.24 10:22:41 PM [INFO] Query to /api/posts/1
+2023.10.24 10:23:31 PM [INFO] Запрос /api/posts
+2023.10.24 10:23:31 PM [INFO] Query to /api/posts/1
+2023.10.24 10:24:09 PM [INFO] Запрос /api/posts
+2023.10.24 10:24:09 PM [INFO] Query to /api/posts/1
+2023.10.24 10:25:11 PM [INFO] Запрос /api/posts
+2023.10.24 10:25:11 PM [INFO] Query to /api/posts/1
+2023.10.24 10:35:42 PM [INFO] Запрос /api/posts
+2023.10.24 10:35:42 PM [INFO] Query to /api/posts/1
+2023.10.25 08:06:21 PM [INFO] Запрос /api/posts
+2023.10.25 08:06:21 PM [INFO] Query to /api/posts/1
+2023.10.25 08:16:21 PM [INFO] Запрос /api/posts
+2023.10.25 08:16:21 PM [INFO] Query to /api/posts/1
+2023.10.25 08:16:39 PM [INFO] Запрос /api/posts
+2023.10.25 08:16:39 PM [INFO] Query to /api/posts/1
+2023.10.25 08:18:27 PM [INFO] Запрос /api/posts
+2023.10.25 08:18:27 PM [INFO] Query to /api/posts/1
+2023.10.25 08:25:49 PM [INFO] Запрос /api/posts
+2023.10.25 08:25:49 PM [INFO] Query to /api/posts/1
+2023.10.25 08:26:25 PM [INFO] Запрос /api/posts
+2023.10.25 08:26:25 PM [INFO] Query to /api/posts/1
+2023.10.25 08:32:52 PM [INFO] Запрос /api/posts
+2023.10.25 08:32:52 PM [INFO] Query to /api/posts/1
+2023.10.25 08:35:30 PM [INFO] Запрос /api/posts
+2023.10.25 08:35:30 PM [INFO] Query to /api/posts/1
+2023.10.25 08:36:31 PM [INFO] Запрос /api/posts
+2023.10.25 08:36:31 PM [INFO] Query to /api/posts/1
+2023.10.25 08:36:48 PM [INFO] Запрос /api/posts
+2023.10.25 08:36:49 PM [INFO] Query to /api/posts/1
+2023.10.25 08:38:08 PM [INFO] Запрос /api/posts
+2023.10.25 08:38:08 PM [INFO] Query to /api/posts/1
+2023.10.25 08:44:18 PM [INFO] Запрос /api/posts
+2023.10.25 08:44:18 PM [INFO] Query to /api/posts/1
+2023.10.25 08:44:30 PM [INFO] Запрос /api/posts
+2023.10.25 08:44:30 PM [INFO] Query to /api/posts/1
+2023.10.25 08:47:00 PM [INFO] Запрос /api/posts
+2023.10.25 08:47:00 PM [INFO] Query to /api/posts/1
+2023.10.25 08:48:32 PM [INFO] Запрос /api/posts
+2023.10.25 08:48:32 PM [INFO] Query to /api/posts/1
+2023.10.25 08:52:00 PM [INFO] Запрос /api/posts
+2023.10.25 08:52:00 PM [INFO] Query to /api/posts/1
+2023.10.25 08:56:26 PM [INFO] Запрос /api/posts
+2023.10.25 08:56:26 PM [INFO] Query to /api/posts/1
+2023.10.25 08:56:35 PM [INFO] Запрос /api/posts
+2023.10.25 08:56:36 PM [INFO] Query to /api/posts/1
+2023.10.25 08:57:24 PM [INFO] Запрос /api/posts
+2023.10.25 08:57:24 PM [INFO] Query to /api/posts/1
+2023.10.25 08:58:38 PM [INFO] Запрос /api/posts
+2023.10.25 08:58:39 PM [INFO] Query to /api/posts/1
+2023.10.25 08:58:55 PM [INFO] Запрос /api/posts
+2023.10.25 08:58:55 PM [INFO] Query to /api/posts/1
+2023.10.25 08:59:04 PM [INFO] Запрос /api/posts
+2023.10.25 08:59:04 PM [INFO] Query to /api/posts/1
+2023.10.25 08:59:58 PM [INFO] Запрос /api/posts
+2023.10.25 08:59:58 PM [INFO] Query to /api/posts/1
+2023.10.25 09:00:41 PM [INFO] Запрос /api/posts
+2023.10.25 09:00:41 PM [INFO] Query to /api/posts/1
+2023.10.25 09:01:42 PM [INFO] Запрос /api/posts
+2023.10.25 09:01:42 PM [INFO] Query to /api/posts/1
+2023.10.25 09:11:08 PM [INFO] Запрос /api/posts
+2023.10.25 09:11:08 PM [INFO] Query to /api/posts/1
+2023.10.25 09:21:20 PM [INFO] Запрос /api/posts
+2023.10.25 09:21:20 PM [INFO] Query to /api/posts/1
+2023.10.25 09:22:04 PM [INFO] Запрос /api/posts
+2023.10.25 09:22:04 PM [INFO] Query to /api/posts/1
