@@ -1,0 +1,3 @@
+JSON_PATH = "./offer.json"
+SQLALCHEMY_DATABASE_URI = 'sqlite:///offers.db'
+SQLALCHEMY_TRACK_MODIFICATION = False
